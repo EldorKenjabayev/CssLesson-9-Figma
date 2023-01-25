@@ -1,0 +1,1000 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: serif;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Cormorant Upright', serif; */
+}
+
+.contenier {
+  width: 100vw;
+  height: 100%;
+  background-color: #0c0b08;
+}
+
+.contenier .alWidth {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+
+.contenier .alWidth .nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c0b08;
+}
+
+.contenier .alWidth .nav h1 {
+  border: 1px solid transparent;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contenier .alWidth .nav a {
+  border: 1px solid transparent;
+}
+
+.contenier .alWidth .nav ul {
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid transparent;
+}
+
+.contenier .alWidth .nav ul li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.contenier .alWidth .nav .login {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contenier .alWidth .nav .login a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.contenier .alWidth .nav .login img {
+  height: 57px;
+}
+
+.contenier .alWidth .main {
+  width: 100%;
+  height: 850px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.contenier .alWidth .main .main_title {
+  width: 30%;
+}
+
+.contenier .alWidth .main .main_title h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.contenier .alWidth .main .main_title h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.contenier .alWidth .main .main_title p {
+  width: 95%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+
+.contenier .alWidth .main .main_title a {
+  border: 1px solid transparent;
+  padding: 8px 35px;
+  background-color: #d9c785;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0b08;
+}
+
+.contenier .alWidth .main .main_img {
+  border-right: 20px solid #dcca87;
+  border-bottom-right-radius: 65%;
+  border-top: 20px solid #dcca87;
+  border-top-left-radius: 65%;
+  border-bottom: 20px solid #dcca87;
+  border-bottom-right-radius: 65%;
+  border-left: 20px solid #dcca87;
+}
+
+.contenier .alWidth .main .main_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.contenier .alWidth .main2 {
+  width: 100%;
+  height: auto;
+  background-image: url(./image/Mask\ Group.png);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5ac93c57b98a78beef171180/1523159245612-T2GISRJXUFJBSKIYK56O/G.png?format=1000w);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 580px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 30px;
+}
+
+.contenier .alWidth .main2 .main2_title1 {
+  width: 28%;
+  height: auto;
+  padding-top: 15%;
+}
+
+.contenier .alWidth .main2 .main2_title1 .know {
+  text-align: end;
+}
+
+.contenier .alWidth .main2 .main2_title1 img {
+  margin-left: 90%;
+  margin-right: 100px;
+}
+
+.contenier .alWidth .main2 .main2_title1 p {
+  color: #ffffff;
+  text-align: right;
+}
+
+.contenier .alWidth .main2 .main2_title2 {
+  width: 29%;
+  padding-top: 15%;
+}
+
+.contenier .alWidth .main2 .main2_title2 p {
+  color: #ffffff;
+}
+
+.contenier .alWidth .main2 .main2_title2 h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #dcca87;
+}
+
+.contenier .alWidth .main2 .main2_title2 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+.contenier .alWidth .main2 .main2_title1 h3 {
+  text-align: end;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #dcca87;
+}
+
+.contenier .alWidth .main2 .main2_title1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+.contenier .alWidth .main2 .main2_title1 a {
+  border: 1px solid transparent;
+  padding: 8px 30px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0b08;
+  background-color: #dcca87;
+}
+
+.contenier .alWidth .main2 .main2_title2 a {
+  border: 1px solid transparent;
+  padding: 8px 30px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0b08;
+  background-color: #dcca87;
+}
+
+.contenier .alWidth .bokk {
+  width: 100%;
+  height: 470px;
+  text-align: center;
+  padding-top: 157px;
+}
+
+.contenier .alWidth .bokk h4 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenier .alWidth .bokk h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  color: #dcca87;
+}
+
+.contenier .alWidth .bokk .person {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contenier .alWidth .bokk .person select {
+  width: 32%;
+  height: 60px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #0c0b08;
+}
+
+.contenier .alWidth .bokk a {
+  border: 1px solid #dcca87;
+  padding: 7px 30px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #dcca87;
+  color: #0c0b08;
+}
+
+.contenier .bar_menu {
+  width: 100%;
+  height: 700px;
+  background-image: url(./image/Mask.png);
+  background-repeat: no-repeat;
+}
+
+.contenier .bar_menu .menu a {
+  margin-left: 120px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 150px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contenier .bar_menu .menu {
+  padding-top: 180px;
+}
+
+.contenier .bar_menu .menu #barr {
+  border-bottom: 3px solid #ffffff;
+}
+
+.contenier .alWidth .pallate {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.contenier .alWidth .pallate h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenier .alWidth .pallate .img122 {
+  position: relative;
+  left: 48%;
+}
+
+.contenier .alWidth .pallate h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  color: #dcca87;
+}
+
+.contenier .alWidth .pallate a {
+  border: 1px solid #ffffff;
+  padding: 8px 30px;
+  text-align: center;
+  background-color: #dcca87;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0b08;
+  align-items: center;
+  margin-left: 46%;
+  margin-top: -65px;
+}
+
+.contenier .alWidth .berr1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer {
+  padding-top: 4%;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer .chapel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer .chapel img {
+  width: 120px;
+  height: 2px;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer .chapel p {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer .chapel h5 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #dcca87;
+}
+
+.contenier .alWidth .pallate .berr1 .wineBeer span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+.contenier .cherfs {
+  width: 100%;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(./image/Mask\ Group.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+.contenier .cherfs .cherfs1 {
+  width: 400px;
+  height: 500px;
+  border-right: 20px solid #dcca87;
+  border-bottom-right-radius: 65%;
+  border-top: 20px solid #dcca87;
+  border-top-left-radius: 65%;
+  border-bottom: 20px solid #dcca87;
+  border-bottom-right-radius: 65%;
+  border-left: 20px solid #dcca87;
+}
+
+.contenier .cherfs .cherfs1 img {
+  width: 360px;
+  height: 460px;
+}
+
+.contenier .cherfs .cherfstext {
+  width: 39%;
+}
+
+.contenier .cherfs .cherfstext h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.contenier .cherfs .cherfstext h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  color: #dcca87;
+  margin-bottom: 40px;
+}
+
+.contenier .cherfs .cherfstext span {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+}
+
+.contenier .cherfs .cherfstext .kevin {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #dcca87;
+  margin-bottom: 40px;
+}
+
+.contenier .cherfs .cherfstext .chef {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+}
+
+.contenier .alWidth .customer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.contenier .alWidth .customer .wade {
+  display: flex;
+  justify-content: start;
+  padding: 40px 0;
+}
+
+.contenier .testimony {
+  padding-top: 100px;
+}
+
+.contenier .testimony .testimon {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contenier .testimony .lineimgtest {
+  position: relative;
+  left: 49%;
+}
+
+.contenier .testimony h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #dcca87;
+  text-align: center;
+}
+
+.contenier .alWidth .customer .wade .wadeimg .png {
+  position: relative;
+  left: -36px;
+  top: 25px;
+}
+
+.contenier .alWidth .customer .wade .wade1 {
+  width: 58%;
+  padding-top: 15px;
+}
+
+.contenier .alWidth .customer .wade .wade1 p {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+.contenier .alWidth .customer .wade .wade1 h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #dcca87;
+}
+
+.contenier .alWidth .customer .wade .wade1 h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f5efdb;
+}
+
+.contenier .video {
+  padding-top: 150px;
+  position: relative;
+}
+
+.contenier .video .play {
+  position: absolute;
+  left: 49%;
+  top: 48%;
+}
+
+.contenier .awards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./image/Mask\ Group.png);
+  background-size: auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.contenier .awards .awards2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+}
+
+.contenier .awards .awrads1 h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.contenier .awards .awrads1 h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #dcca87;
+}
+
+.contenier .awards .awards2 .bib {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenier .awards .awards2 .bib .risinh h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #dcca87;
+}
+
+.contenier .awards .awards2 .bib .risinh p {
+  width: 60%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+.contenier .awards .awrads1 {
+  padding-top: 150px;
+}
+
+.contenier .awards .arwads_img {
+  position: relative;
+  padding-left: -200px;
+}
+
+.contenier .awards .arwads_img .gii {
+  position: absolute;
+  top: 311px;
+  right: 200px;
+}
+
+.contenier .alWidth .bligs {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.contenier .alWidth .bligs h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenier .alWidth .bligs .bligsline {
+  margin-left: 49%;
+}
+
+.contenier .alWidth .bligs h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  text-align: center;
+  color: #dcca87;
+}
+
+.contenier .alWidth .bligs .updates {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  padding-top: 50px;
+  gap: 25px;
+}
+
+.contenier .alWidth .bligs .updates .annalise {
+  display: flex;
+  justify-content: space-between;
+}
+.contenier .alWidth .bligs .updates .grill img {
+  width: 100%;
+  height: 500px;
+}
+
+.contenier .alWidth .bligs .updates .annalise p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.contenier .alWidth .bligs .updates .grill .grill_a1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.contenier .alWidth .bligs .updates .grill .grill_a {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.contenier .alWidth .bligs .updates .grill p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+.contenier .alWidth .bligs .updates .grill a {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #dcca87;
+}
+
+.contenier .alWidth .bligs .vere {
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contenier .alWidth .bligs .vere a {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #dcca87;
+  color: #0c0b08;
+  padding: 8px 30px;
+}
+
+.contenier .alWidth .instagram {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.contenier .alWidth .instagram .textinstagram {
+  width: 26%;
+  height: auto;
+}
+
+.contenier .alWidth .instagram .textinstagram h4 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.contenier .alWidth .instagram .textinstagram h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #dcca87;
+}
+
+.contenier .alWidth .instagram .textinstagram p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.contenier .alWidth .instagram .textinstagram a {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0b08;
+  background-color: #dcca87;
+  padding: 8px 30px;
+}
+
+.contenier .alWidth .instagram .imginstagram {
+  position: relative;
+}
+
+.contenier .alWidth .instagram .imginstagram .voda {
+  position: absolute;
+  margin-left: 5px;
+}
+
+.contenier .alWidth .instagram .imginstagram .fon {
+  position: relative;
+}
+
+.contenier .alWidth .instagram .imginstagram .logoinstagram {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  right: 51%;
+}
+
+.contenier .alWidth .instagram .imginstagram .zzzii {
+  z-index: -1000;
+}
+
+.contenier .alWidth .newsletter {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #121010;
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+
+.contenier .alWidth .newsletter h4 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.contenier .alWidth .newsletter h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #dcca87;
+}
+
+.contenier .alWidth .newsletter .inputemail {
+  width: 630px;
+  height: 60px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #121010;
+  border: 1px solid #f5efdb;
+}
+
+.contenier .alWidth .newsletter .subrice {
+  width: 120px;
+  height: 49px;
+  margin-left: 15px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #dcca87;
+}
+.contenier .alWidth .newsletter {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-image: url(./image/Mask\ Group.png);
+  background-size: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer .contactus {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer .contactus .contact h3 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #f5efdb;
+}
+
+footer .contactus .contact p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+footer .contactus .contact a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+footer .contactus .geritch h1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  color: #dcca87;
+  text-transform: uppercase;
+}
+
+footer .contactus .geritch p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #ffffff;
+}
+
+footer .contactus .geritch a {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+footer .contactus .working h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #f5efdb;
+}
+
+footer .contactus .working p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+}
+
+footer .allri{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;  
+  color: #aaaaaa;
+}
